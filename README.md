@@ -1,6 +1,6 @@
 # Example Snowplow React Native App with WebView
 
-This repository serves to show a very basic example for how to implement the Snowplow React Native Tracker (version 4.2+) as well as how to integrate the Snowplow WebView plugin released in version 4.3.1 of the Snowplow JavaScript tracker.
+This repository serves to show a very basic example for how to implement the Snowplow React Native Tracker (version 4.2+) as well as how to integrate the Snowplow WebView plugin released in version 4.3.1 of the Snowplow JavaScript tracker. It builds on top of the Expo Managed framework.
 
 It creates an app with two screens - the first which has a series of buttons to trigger Snowplow Events from the React Native Tracker, and the second to open up a WebView to show how events can be forwarded using the React Native tracker.
 
