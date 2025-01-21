@@ -18,3 +18,6 @@ EXPO_PUBLIC_WEBVIEW_ENDPOINT=http://localhost:3000/
 SNOWPLOW_CONSOLE_API_KEY=MY-API-KEY
 SNOWPLOW_CONSOLE_API_KEY_ID=MY-API-KEY-ID
 ```
+
+## WebView Plugin
+To have events forwarded from the WebView to the React Native app, you must have the WebView plugin enabled on the site loaded within the WebView. [See more details here](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/webview/)
