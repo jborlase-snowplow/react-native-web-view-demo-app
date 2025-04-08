@@ -21,3 +21,12 @@ SNOWPLOW_CONSOLE_API_KEY_ID=MY-API-KEY-ID
 
 ## WebView Plugin
 To have events forwarded from the WebView to the React Native app, you must have the WebView plugin enabled on the site loaded within the WebView. [See more details here](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracking-events/webview/)
+
+## How to install
+
+- Run `npm install`
+- Install Xcode
+- Install [Expo Go](https://expo.dev/go) and follow "Install Expo Go on your emulator/simulator"
+- Open Orbit and launch Simulator
+- Run `npx expo start` - once running press "i" on your keyboard to open the iOS Simulator
+- Press the "r" on your keyboard in Simulator to refresh
